@@ -18,8 +18,6 @@ let p3 = document.getElementById("p3")
 p3.addEventListener("click",outputForm);
 
 
-setTimeout(function (){
-    p3.removeEventListener("click", outputForm);
-    },30000);
+
 
 
